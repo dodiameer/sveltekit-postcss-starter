@@ -10,7 +10,8 @@ const config = {
 		autoprefixer(),
 		// @ts-ignore - Says it's not callable but it is
 		!dev && purgecss({
-			content: ["./src/**/*.html", "./src/**/*.svelte"]
+			content: ["./src/**/*.html", "./src/**/*.svelte"],
+			safelist: [/svelte-/],
 		}),
 
 		!dev && cssnano({
