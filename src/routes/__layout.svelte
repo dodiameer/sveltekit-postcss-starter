@@ -1,2 +1,4 @@
-<script>import "../app.postcss";</script>
+<script lang="ts">
+  import "$lib/styles/app.css";
+</script>
 <slot></slot>
