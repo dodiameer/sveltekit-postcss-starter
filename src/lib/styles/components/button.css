@@ -1,0 +1,11 @@
+button, .button {
+  background-color: var(--button-background, #eee);
+  border-radius: var(--button-border-radius, 2px);
+  border: 1px solid;
+  border-color: var(--button-border-color, #ccc);
+  color: var(--button-text, #333);
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.6em 1.2em;
+}
