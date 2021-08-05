@@ -26,7 +26,12 @@
   4. Set the font-weight to bold.
   5. Set the letter-spacing to 0.5px.
 */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.5rem;
 	line-height: 1.15;
@@ -39,10 +44,12 @@ h1, h2, h3, h4, h5, h6 {
   1. Remove margin and padding.
   2. Set box-sizing to border-box.
 */
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 /*
@@ -51,8 +58,8 @@ h1, h2, h3, h4, h5, h6 {
   2. Set text color to --shade-dark.
 */
 body {
-  background: var(--shade-light);
-  color: var(--shade-dark);
+	background: var(--shade-light);
+	color: var(--shade-dark);
 }
 
 /*
@@ -60,5 +67,5 @@ body {
   1. Set color to current color.
 */
 a {
-  color: currentColor;
+	color: currentColor;
 }
