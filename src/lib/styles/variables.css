@@ -3,15 +3,10 @@
   ? Shades
   ===-------------------===
   * Format: --shade-<name>-<shade>-<color|text>: <color>
-  * Example: 
-  ```
-  --shade-primary-500-color: hsl(200, 50%, 50%);
-  --shade-primary-500-text: white; 
-  ```  
   ===-------------------===
  */
-  --shade-example-500-color: hsl(200, 50%, 50%);
-  --shade-example-500-text: white;
+  --shade-primary-500-color: hsl(200, 50%, 50%);
+  --shade-primary-500-text: white;
   --shade-light: #f5f5f5;
   --shade-dark: #222;
 
@@ -19,30 +14,17 @@
   ? Flow (Vertical & Horizontal)
   ===-------------------===
   * Format: --flow-<direction>: <number>
-  * Example:
-  ```
-  --flow-default: 0.5em;
-  --flow-vertical: var(--flow-default);
-  --flow-horizontal: var(--flow-default);
-  ```
   * Default: --flow-default: 0.5em;
   * Overrides: 
-  ```
-  <div class="flow-vertical">
-    ...
-  </div>
-  <style>
-    .flow-vertical {
-      --flow-vertical: var(--flow-vertical);
-    }
-    .flow-vertical > * {
-      Apply default value to not affect children
-      --flow-vertical: var(--flow-default);
-    }
-  </style>
-  ```
   */
   --flow-default: 0.5em;
   --flow-vertical: var(--flow-default);
   --flow-horizontal: var(--flow-default);
+  /*
+  ? Container
+  ===-------------------===
+  * Format: --container-width: <number>
+  * Default: --container-width: 85vw;
+  */
+  --container-width: 85vw;
 }

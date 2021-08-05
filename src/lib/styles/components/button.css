@@ -9,3 +9,9 @@ button, .button {
   text-decoration: none;
   padding: 0.6em 1.2em;
 }
+
+.button-primary, button {
+  --button-background: var(--shade-primary-500-color);
+  --button-border-color: var(--shade-primary-500-color);
+  --button-text: var(--shade-primary-500-text);
+}
